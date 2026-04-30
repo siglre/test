@@ -15,4 +15,6 @@ const legalEntitySchema = new mongoose.Schema ({
 });
 const LegalEntity = mongoose.model('LegalEntity', legalEntitySchema);
 
+
+ваыва
 module.exports = LegalEntity;

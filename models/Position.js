@@ -6,13 +6,7 @@ const PositionSchema = new mongoose.Schema ({
         requred: [true,'Наименование должности '],
         thim: true
     },
-    Payment: {
-        type: String,
-        required: [true,'Выберите тип оплаты'],
-        enum: {
-            values: ['shift', 'hourly']
-        }
-    },
+   
     Rate: {
         type:Number,
         required: [true,'Сумма оплаты'],
